@@ -65,5 +65,9 @@ See the full PDF report in this repository for the data-cleaning process, visual
 
 ## Author
 
-Data Analytics Portfolio Project
+## Author
+
+Keira Malan
+
+Aspiring Data Analyst | Building skills in data analysis, Google Sheets, SQL, and Python
 
