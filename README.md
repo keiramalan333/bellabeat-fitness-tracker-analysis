@@ -1,45 +1,69 @@
 # Bellabeat Fitness Tracker Analysis
 
 ## Project Overview
-This project analyses Fitbit fitness tracker data to identify trends in daily activity and explore how these insights could support Bellabeat's marketing strategy.
+
+This project explores Fitbit fitness tracker data to identify daily activity patterns and develop marketing recommendations for Bellabeat. The analysis focuses on the Bellabeat Time watch and considers how smart-device usage trends could help Bellabeat understand and engage its customers.
+
+This is a practice case study completed as part of my data analytics learning journey.
 
 ## Business Task
-The goal is to understand smart-device usage patterns, including daily steps, active minutes, and sedentary time, and develop marketing recommendations for the Bellabeat Time watch.
+
+Analyse smart device usage data to identify trends in daily steps, active minutes, and sedentary time, then use the findings to suggest potential marketing strategies for Bellabeat.
 
 ## Tools Used
+
 - Google Sheets
-- Pivot tables
 - Spreadsheet formulas
+- Pivot tables
+- Data cleaning
 - Data visualisation
 
-## Data Source
-The analysis uses the Fitbit Fitness Tracker dataset made available by Mobius on Kaggle. The dataset contains activity data from Fitbit users.
+## Dataset
+
+- **Dataset:** Fitbit Fitness Tracker Data
+- **File analysed:** `dailyActivity_merged.csv`
+- **Source:** Mobius, via Kaggle
+- **Data period:** April–May 2016
+- **Licence:** CC0, as stated in the Coursera case study instructions
+
+The dataset contains daily activity records including steps, distance, calories burned, active minutes, and sedentary minutes.
 
 ## Data Cleaning
-- Checked for missing values and duplicate user-date records.
-- Converted activity dates into a proper date format.
-- Checked for negative values.
-- Investigated zero-step records and retained them because their cause could not be confirmed.
+
+The dataset was checked for missing values, duplicate user-date records, inconsistent date formats, and negative values. Activity dates were converted into a proper date format. Zero-step records were investigated and retained because it was unclear whether they represented inactivity or the device not being worn.
 
 ## Analysis
-The analysis explored daily steps, calories burned, active minutes, and sedentary time. A pivot table was used to compare average daily steps and sedentary minutes by weekday.
+
+Using Google Sheets, I calculated summary statistics and compared average daily steps and sedentary minutes across the days of the week. I also analysed average minutes spent at different activity levels and created charts to communicate the findings.
 
 ## Key Findings
-- Tuesday had the highest average daily steps.
-- Sunday had the lowest average daily steps.
-- Tuesday had the highest average sedentary minutes.
-- Users recorded more lightly active and sedentary minutes than fairly active and very active minutes.
+
+- **Highest average daily steps:** Saturday, approximately 8,153 steps.
+- **Lowest average daily steps:** Sunday, approximately 6,933 steps.
+- **Difference:** Approximately 1,220 steps between Saturday and Sunday.
+- **Highest average sedentary time:** Monday, approximately 1,028 minutes.
+- **Lowest average sedentary time:** Thursday, approximately 962 minutes.
+- The activity-level analysis showed substantially more sedentary and lightly active minutes than very active and fairly active minutes.
 
 ## Recommendations
-- Encourage users to move more throughout the day.
-- Promote regular movement breaks.
-- Encourage users to set personal activity goals and track their progress.
+
+Based on the observed patterns, the analysis suggests that Bellabeat could explore:
+
+1. Encouraging daily movement through activity-tracking features.
+2. Promoting regular movement breaks.
+3. Encouraging personal activity goals and progress tracking.
+
+These are potential strategies to investigate, rather than proven outcomes.
 
 ## Limitations
-The dataset is historical and contains a limited sample of Fitbit users. The findings may not represent Bellabeat customers, and further research would be needed to confirm the recommendations.
 
-## Product Focus
-Bellabeat Time watch
+The dataset is historical and represents Fitbit users rather than Bellabeat customers. The sample is limited, and the findings may not represent all consumers. Further research would be needed to confirm whether these patterns apply to Bellabeat's target audience.
+
+## Project Report
+
+See the full PDF report in this repository for the data-cleaning process, visualisations, findings, and recommendations.
 
 ## Author
+
 Data Analytics Portfolio Project
+
